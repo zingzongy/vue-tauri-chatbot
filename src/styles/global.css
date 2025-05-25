@@ -35,16 +35,18 @@ html, body, #app {
 }
 
 .chat-container {
+    height: 95%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     overflow: hidden;
 }
 
 .chat-sidebar {
     width: 15%;
     height: 95%;
-    background-color: #444;
+    background-color: #2575ff;
     border-radius: 8px;
     margin-right: 10px;
     padding: 10px;
@@ -57,13 +59,15 @@ html, body, #app {
     background-color: aqua;
     border-radius: 8px;
     margin: 0%;
+    overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
 .chat-input {
-    height: 10%;
+    height: 12%;
     width: 100%;
     border-radius: 8px;
     background-color: blueviolet;
+    overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
 body {

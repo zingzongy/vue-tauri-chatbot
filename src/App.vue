@@ -6,7 +6,7 @@
 <template>
   <div class="app-root">
     <div class="chat-sidebar">
-
+      <p>Start a new chat</p>
     </div>
     <div class="chat-container">
       <div class="chat-window">
