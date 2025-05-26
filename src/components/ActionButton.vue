@@ -15,18 +15,20 @@ const props = defineProps<Props>();
 <style scoped>
 /*basic styling to make it look like a button*/
 .simple-button {
+    width: 75%;
     background-color: #898989; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 0.75em 1.5em;
     box-shadow: 5px 5px 15px rgb(18, 18, 18);
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
     cursor: pointer;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 .simple-button:hover {
