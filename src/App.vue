@@ -7,7 +7,7 @@ import ActionButton from './components/ActionButton.vue';
   <div class="app-root">
     <div class="chat-sidebar">
       <p>Start a new chat</p>
-      <ActionButton>Hello</ActionButton>
+      <ActionButton text="Start Chat" />
     </div>
     <div class="chat-container">
       <div class="chat-window">
