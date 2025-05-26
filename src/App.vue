@@ -1,12 +1,13 @@
 <script setup lang="ts">
 //this is where your typescript code goes
-
+import ActionButton from './components/ActionButton.vue';
 </script>
 
 <template>
   <div class="app-root">
     <div class="chat-sidebar">
       <p>Start a new chat</p>
+      <ActionButton>Hello</ActionButton>
     </div>
     <div class="chat-container">
       <div class="chat-window">

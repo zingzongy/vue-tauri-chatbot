@@ -12,18 +12,19 @@
 html, body, #app {
     height: 100%;
     width: 100%;
+    background-color: #121212;
 }
 
+/* mounting point, no style needed */
 #app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .app-root {
     width: 100vw;
     height: 100vh; 
-    background-color: #333;
+    background-color: #1E1E1E;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
     display: flex;
@@ -40,24 +41,31 @@ html, body, #app {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #1E1E1E;
     overflow: hidden;
 }
 
 .chat-sidebar {
     width: 15%;
     height: 95%;
-    background-color: #2575ff;
+    background-color: #2A2A2A;
     border-radius: 8px;
     margin-right: 10px;
     padding: 10px;
     overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
+.chat-sidebar p {
+    color: #8A8A8A; /* Dim Grey - Secondary Text */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .chat-window {
     width: 100%;
     height: 85%;
-    background-color: aqua;
     border-radius: 8px;
+    background-color: #2A2A2A;
     margin: 0%;
     overflow-y: auto; /* Allows scrolling if content overflows */
 }
@@ -66,7 +74,7 @@ html, body, #app {
     height: 12%;
     width: 100%;
     border-radius: 8px;
-    background-color: blueviolet;
+    background-color: #2A2A2A;
     overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
